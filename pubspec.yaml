@@ -30,3 +30,7 @@ flutter:
     - assets/images/item3.png
     - assets/images/item4.png
     - assets/images/item5.png
+    - assets/images/visa.png
+    - assets/images/paypal.png
+    - assets/images/mastercard.png
+    - assets/images/apple.png

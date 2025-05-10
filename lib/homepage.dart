@@ -4,6 +4,7 @@ import 'service.dart'; // Import the ProductService class
 import 'productDetails.dart'; // Import the ProductDetails class
 import 'product.dart'; // Import the Product model
 import 'package:flutter/services.dart';
+import 'checkout.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 
 class StudentHome extends StatefulWidget {
@@ -701,7 +702,10 @@ class _StudentHomeState extends State<StudentHome> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Handle FAB tap
-          print("Floating Action Button tapped");
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => CheckoutPage()),
+          );
         },
 
         backgroundColor: Colors.white,
